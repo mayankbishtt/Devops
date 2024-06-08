@@ -1,12 +1,13 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 #123
+
 name: Python application
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 permissions:
   contents: read
